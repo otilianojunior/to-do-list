@@ -22,7 +22,7 @@ git clone https://github.com/otilianojunior/to-do-list
 
 ## Passo 2: Instale as Dependências
 
-No diretório da API do seu projeto, execute o seguinte comando para instalar as dependências necessárias:
+No diretório da API  **`to-do-list`**, execute o seguinte comando para instalar as dependências necessárias:
 
 ```bash
 cd api
@@ -100,7 +100,17 @@ Agora você pode testar a API usando uma ferramenta como Postman ou Insomnia. Ve
   }
   ```
 
-  A resposta dessa requisição retornará um token de autenticação. É necessário salvar esse token para consumir a API.
+  Não esqueça de sua senha e e-mail, serão necessários para login.
+
+- **Login API**: `POST http://localhost:8000/api/login`
+
+  ```json
+  {
+      "email": "seu_email",
+      "password": "sua_senha",
+  }
+  ```
+  A resposta dessa requisição retornará um `token`, esse é seu Bearer Token, salve ele em bloco de notas de forma temporaria, pois iremos utiliza-lo no próximo passo do tutorial.
 
 ## Conclusão
 
@@ -114,7 +124,7 @@ Nesta etapa, você aprenderá a configurar e executar o front-end do seu aplicat
 
 ## Passo 1: Acesse o Diretório do App
 
-Em um novo terminal, navegue até o diretório do aplicativo Vue.js. Supondo que você já tenha clonado o repositório, execute:
+Em um novo terminal, navegue até o diretório do aplicativo Vue.js. Supondo que você já tenha clonado o repositório, e estaja no diretório **`to-do-list`** execute:
 
 ```bash
 cd app
@@ -144,7 +154,7 @@ Isso instalará todas as bibliotecas e dependências definidas no arquivo `packa
      ```env
      VUE_APP_API_URL=seu_link_api
      ```
-   - Adicione o seu token obtido no registro na API:
+   - Adicione o seu token obtido no `LOGIN` da API:
      ```env
      VUE_APP_API_TOKEN=seu_token
      ```
