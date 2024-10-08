@@ -8,7 +8,7 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
 
 1. **PHP**: A versão recomendada é a 8.x ou superior.
 2. **Composer**: Um gerenciador de dependências para PHP.
-3. **MySQL**: Um sistema de gerenciamento de banco de dados.
+3. **MySQL**: Um sistema de gerenciamento de banco de dados. (deixe-o em execução)
 4. **Laravel**: O framework PHP (opcional, pois será instalado com o Composer).
 5. **Node.js** e **npm**: Necessários para executar o front-end.
 
