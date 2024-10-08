@@ -187,3 +187,8 @@ Outros imagens importantes:
 ### Notas
 - A API pode ser aprimorada com a inclusão do Swagger para melhor documentar o código.
 - O aplicativo pode ser melhorado adicionando telas de login e cadastro, correspondendo a todas as rotas da API.
+
+
+# Executando
+
+![Api em Funcionamento](assets/images/api-gif.gif)
