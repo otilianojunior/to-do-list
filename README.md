@@ -18,12 +18,16 @@ Primeiro, clone o repositório da API. Abra o terminal e execute o seguinte coma
 
 ```bash
 git clone https://github.com/otilianojunior/to-do-list
-cd api
 ```
 
 ## Passo 2: Instale as Dependências
 
 No diretório da API do seu projeto, execute o seguinte comando para instalar as dependências necessárias:
+
+```bash
+cd api
+```
+E em seguida:
 
 ```bash
 composer install
@@ -175,7 +179,10 @@ Aqui você pode ver todas as rotas da API em funcionamento.
 - **[PUT: Tarefa Update](assets/images/tarefa-update.png)**
 - **[DEL: Tarefa Delete](assets/images/tarefa-delete.png)**
 
-```
+Outros imagens importantes:
+
+- **[Banco de Dados](assets/images/api-database.png)**
+
 
 ### Notas
 - A API pode ser aprimorada com a inclusão do Swagger para melhor documentar o código.
