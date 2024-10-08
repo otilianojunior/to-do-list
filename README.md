@@ -167,17 +167,17 @@ Teste as funcionalidades que consomem a API, como cadastrar, editar, excluir e v
 
 Agora você configurou e executou seu aplicativo Vue.js que consome a API Laravel com sucesso! Se encontrar problemas, verifique as mensagens de erro no terminal ou no console do navegador. Lembre-se de que ambos os servidores devem estar ativos!
 
-## Arquivos Adicionais
+## Excução do endpoints
 
 Aqui você pode ver todas as rotas da API em funcionamento.
 
-- **[POST: Register API](assets/images/register-api.png)** 
-- **[POST: Login API](assets/images/login-api.png)**
-- **[POST: Tarefa Create](assets/images/tarefa-create.png)**
-- **[GET: Tarefas List](assets/images/tarefas-list.png)**
-- **[GET: Tarefas Show](assets/images/tarefa-show.png)**
-- **[PUT: Tarefa Update](assets/images/tarefa-update.png)**
-- **[DEL: Tarefa Delete](assets/images/tarefa-delete.png)**
+- **[POST: Register API](assets/images/register-api.png)**  - POST: http://localhost:8000/api/register
+- **[POST: Login API](assets/images/login-api.png)** - POST : http://localhost:8000/api/login
+- **[POST: Tarefa Create](assets/images/tarefa-create.png)**  - POST: http://localhost:8000/api/tarefas
+- **[GET: Tarefas List](assets/images/tarefas-list.png)** - GET: http://localhost:8000/api/tarefas/
+- **[GET: Tarefas Show](assets/images/tarefa-show.png)** - SHOW: http://localhost:8000/api/tarefas/{id}
+- **[PUT: Tarefa Update](assets/images/tarefa-update.png)** - PUT: http://localhost:8000/api/tarefas/{id}
+- **[DEL: Tarefa Delete](assets/images/tarefa-delete.png)**- DELETE: http://localhost:8000/api/tarefas/{id}
 
 Outros imagens importantes:
 
